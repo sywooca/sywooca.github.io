@@ -13,9 +13,51 @@ html{
 body{
     height: 100%;
 }
-
 .container {
     width: 100vw;
     height: 100vh;
     background: #ffffff;
+}
+.page-container {
+    height: 92vh;
+    margin: 0 2vh 2vh;
+}
+
+/* HEADER */
+.header {
+    height: 6vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 2vh 2vh;
+}
+.header-title {
+    font-size: 1.5rem;
+    margin: 0 1vh 0;
+}
+
+/* ARROW DERCORATION */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 0.15rem;
+}
+.a-right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.a-left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.a-up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.a-down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }

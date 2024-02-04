@@ -8,23 +8,13 @@
 }
 .profile-ussername {
     font-size: 1.5rem;
-    margin: 0 2vh 0 1vh;
+    margin: 0 1vh 0;
 }
 .profile-img {
     height: 18vmin;
     border-radius: 1.5rem;
     background-image: linear-gradient(27deg, #9de6497a 0%, #4917be88 100%);
     padding: 4px;
-}
-.arrow-right {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    border-radius: 0.15rem;
 }
 
 /* NEWS */
